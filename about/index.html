@@ -193,6 +193,18 @@
   
   var dataMap = new Map();
   
+    var key = "2024-12-08";
+    var value = dataMap.get(key);
+    var wordCount =  69 ;
+    var link = "/post/year/2024/";
+    var title = "2024 拥抱变化";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = "2024-10-21";
     var value = dataMap.get(key);
     var wordCount =  373 ;
@@ -496,9 +508,11 @@
   
     
   
+    
+  
 
 
-13,230 字
+13,299 字
 
 
  

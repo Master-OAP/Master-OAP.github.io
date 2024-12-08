@@ -211,6 +211,47 @@
     
         
 
+  <div class="myCard div-hover" onclick="window.location.href='\/post\/os\/6.s081-lab\/'">
+    
+    <div class="myImgContainer">
+      
+      <img src="/img/6.S081/mit.png" alt="pic" style="border-radius: 10px; margin-top: 10%; max-width: 100%; max-height: 100%">
+    </div>
+    <div class="myTitle">
+      <div class="myWrapper hover-underline-animation">
+        6.S081：实验
+      </div>
+    </div>
+    <div class="myContent">实验捏</div>
+    <div class="post-time-container">
+      <span class="post-time"> 2023-07-10 </span>
+    </div>
+  </div>
+
+
+
+<script>
+  VanillaTilt.init(document.querySelectorAll(".myCard"), {
+      max: 30, 
+      speed: 2000, 
+      glare: true,    
+      "max-glare": 0.1, 
+      gyroscope: true,
+      gyroscopeMinAngleX: -45,
+      gyroscopeMaxAngleX: 45,
+      gyroscopeMinAngleY: -45,
+      gyroscopeMaxAngleY: 45,
+      "reset-to-start": true,
+      "preventClick": true,
+      reset: true,
+      scale: 1
+  });
+  
+  
+</script>
+    
+        
+
   <div class="myCard div-hover" onclick="window.location.href='\/post\/tool\/gdb\/'">
     
     <div class="myImgContainer">
@@ -291,47 +332,6 @@
   
 </script>
     
-        
-
-  <div class="myCard div-hover" onclick="window.location.href='\/post\/test\/syntaxtest\/'">
-    
-    <div class="myImgContainer">
-      
-      <img src="/img/test/google.png" alt="pic" style="border-radius: 10px; margin-top: 10%; max-width: 100%; max-height: 100%">
-    </div>
-    <div class="myTitle">
-      <div class="myWrapper hover-underline-animation">
-        Markdown Syntax Guide
-      </div>
-    </div>
-    <div class="myContent">测试</div>
-    <div class="post-time-container">
-      <span class="post-time"> 1970-01-01 </span>
-    </div>
-  </div>
-
-
-
-<script>
-  VanillaTilt.init(document.querySelectorAll(".myCard"), {
-      max: 30, 
-      speed: 2000, 
-      glare: true,    
-      "max-glare": 0.1, 
-      gyroscope: true,
-      gyroscopeMinAngleX: -45,
-      gyroscopeMaxAngleX: 45,
-      gyroscopeMinAngleY: -45,
-      gyroscopeMaxAngleY: 45,
-      "reset-to-start": true,
-      "preventClick": true,
-      reset: true,
-      scale: 1
-  });
-  
-  
-</script>
-    
     
 
 </div>
@@ -343,7 +343,11 @@
         <a href="/page/3/" class="pag-link"> Prev </a>
     </button>
     
-    <label class="pag-link">Page 4 of 4</label>
+    <label class="pag-link">Page 4 of 5</label>
+    
+    <button class="button"  onclick="window.location.href=&#34;/page/5/&#34;">
+        <a href="/page/5/" class="pag-link"> Next </a>
+    </button>
     
 </section>
 
