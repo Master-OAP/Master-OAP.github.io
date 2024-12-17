@@ -62,7 +62,7 @@
       <link>https://o-a-p.github.io/about/</link>
       <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://o-a-p.github.io/about/</guid>
-      <description>关于我 人物：苦逼找工仔，苦逼打工仔 技能：C/C++, CMake, Linux, GDB, Git, MySQL, Vue, Java, SpringBoot, Qt, Python 头像：https://pixel-me.tokyo/en/ lab代码&#xA;关于本站 请各位在深色主题下阅览此博客，浅色太刺眼了，所以浅色主题适配只做了一点点，而且还整出来了一点主题切换的小bug，但也是特性，让大伙能够锁死在深色主题上🤗 相册懒加载不好使，加上本来就是白嫖github，所以Photo加载会有点慢，理解万岁🙂 </description>
+      <description>关于我 人物：苦逼找工仔，苦逼打工仔 技能：C/C++, CMake, Linux, GDB, Git, MySQL, Vue, Java, SpringBoot, Qt, Python 头像：https://pixel-me.tokyo/en/ 关于本站 请</description>
     </item>
     <item>
       <title>6.S081：xv6 trap过程</title>
@@ -111,7 +111,7 @@
       <link>https://o-a-p.github.io/todo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://o-a-p.github.io/todo/</guid>
-      <description> MySQL优化相关 常用设计模式 去掉博客对外部资源的依赖 👉 Done&#xD;C++内存序 增加livephoto短代码 增加分割线对bye的支持 增加单行图文混排短代码 修复豆瓣图文api失效问题 修复主页卡片在浅色模式不可见问题 优化主页卡片样式 优化Todo页面checkbox样式 </description>
+      <description>MySQL优化相关 常用设计模式 去掉博客对外部资源的依赖 👉 Done C++内存序 增加livephoto短代码 增加分割线对bye的支持 增加单行图文混排短</description>
     </item>
     <item>
       <title>我的好东西</title>
