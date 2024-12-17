@@ -407,8 +407,8 @@
     },
     visualMap: {
         min: 0,
-        max: 10,
-        type: 'piecewise',
+        max: 15,
+        type: 'continuous',
         orient: 'horizontal',
         left: 'center',
         top: 30,  
@@ -416,14 +416,16 @@
           
           color: ['#0E4429', '#39D353' ] 
         },
-        splitNumber: 4,
-        text: ['千字', ''],
+        splitNumber: 10,
+        text: ['More', 'Less'],
         textStyle: {
           color: '#e3e3e3',
           fontFamily: 'lxgw wenkai screen',
           borderJoin: 'round',
           borderCap: 'round',
         },
+        itemWidth: 10,
+        itemHeight: 200,
         showLabel: true,
         itemGap: 20,
     },
@@ -474,6 +476,47 @@
 });
 </script> 
 
+<!-- <div id="cal-heatmap"></div>
+
+
+
+<script type="text/javascript">
+        
+        
+        
+
+        
+            console.log("6.S081：xv6 启动过程")
+        
+            console.log("6.S081：xv6 trap过程")
+        
+            console.log("")
+        
+            console.log("6.S081：xv6 中断与驱动")
+        
+            console.log("6.S081：xv6 进程调度")
+        
+            console.log("CSAPP：bomb lab")
+        
+            console.log("再会南昌")
+        
+            console.log("记两次失败的面试")
+        
+            console.log("C\u002b\u002b: functional")
+        
+            console.log("2024 拥抱变化")
+        
+
+        var data = {
+            "pages": [
+                
+            ]
+        };
+        console.log(data)
+</script>
+
+
+ -->
 <ul>
 <li>请各位在<code>深色</code>主题下阅览此博客，浅色太刺眼了，所以浅色主题适配只做了一点点，而且还整出来了一点主题切换的小bug，但也是特性，让大伙能够锁死在深色主题上🤗</li>
 <li>相册懒加载不好使，加上本来就是白嫖github，所以<code>Photo</code>加载会有点慢，理解万岁🙂</li>
@@ -517,7 +560,16 @@
 相当于一本 《小王子》
 </li>
 </ul>
-
+<h1 id="友链">友链</h1>
+<ul>
+<li><a href="https://maisblog.cn/" target="_blank" rel="noopener">Mike</a></li>
+</ul>
+<style>
+li a {
+    color: #92c3eb !important;
+    border-bottom: 1px solid;
+}
+</style>
         </div>
     </div>
    
