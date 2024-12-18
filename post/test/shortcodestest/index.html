@@ -1913,11 +1913,6 @@ function toggleCollapse(element) {
             height: 8px;
         }
 
-         
-        &::-webkit-scrollbar {
-            display: none;
-        }
-
         &::-webkit-scrollbar-track {
             background-color: rgba(255, 255, 255, 0.87);
             border-radius: 2em !important;
@@ -1931,9 +1926,14 @@ function toggleCollapse(element) {
         &::-webkit-scrollbar-corner {
             background-color: transparent;
         }
-
-
     }
+    @media (max-width: 1023px) {
+    #cal-heatmap {
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}
 </style>
 
 <h1 id="参考">参考</h1>
