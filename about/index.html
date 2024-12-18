@@ -653,7 +653,7 @@
                             type: 'threshold',
                             
                             range: ['#0e4429', '#006D32', '#26a641', '#39d353'],
-                            domain: [100, 1000, 2000, 4000],
+                            domain: [1000, 2000, 4000, 8000],
                         },
                     },
                     
@@ -748,6 +748,28 @@
     overflow-x: auto;
     white-space: nowrap;
     scroll-behavior: smooth;  
+
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+
+    -webkit-text-size-adjust: 100%;  
+    &::-webkit-scrollbar {
+        width: 11px;
+        height: 8px;
+    }
+    &::-webkit-scrollbar-track {
+        background-color: rgba(255, 255, 255, 0.87);
+        border-radius: 2em !important;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: #999999;
+        border-radius: 2em;
+    }
+    &::-webkit-scrollbar-corner {
+        background-color: transparent;
+    }
+ 
+
 }
 </style>
 
