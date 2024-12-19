@@ -188,6 +188,17 @@
   
   var dataMap = new Map();
   
+    var key = "2024-12-18";
+    var value = dataMap.get(key);
+    var wordCount =  4645 ;
+    var link = "/post/year/2024/";
+    var title = "2024 拥抱变化";
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = "2024-10-21";
     var value = dataMap.get(key);
     var wordCount =  1429 ;
@@ -502,6 +513,8 @@
     
     
     
+    
+    
 
     var data = {
         "pages": [
@@ -584,6 +597,16 @@
                     "day": "21",
                     "word_count": "1429",
                     "link": "\/post\/cpp\/function-bind\/"
+                },
+                
+                {
+                    "title": "2024 拥抱变化",
+                    "date": "2024-12-18",
+                    "year": "2024",
+                    "month": "12",
+                    "day": "18",
+                    "word_count": "4645",
+                    "link": "\/post\/year\/2024\/"
                 }
                 
         ]
@@ -795,15 +818,17 @@
   
     
   
+    
+  
 
 
-48,464 字
+53,109 字
 
 
  
   
 
-相当于一本 《断魂枪》
+相当于一本 《小王子》
 </li>
 </ul>
 <h1 id="友链">友链</h1>
