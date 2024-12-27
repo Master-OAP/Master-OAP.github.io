@@ -175,8 +175,11 @@
         height: 500px !important;
         border-radius: 20px !important;
     }
-    #mapDiv > div > div.gm-style > div:nth-child(15) > div > img {
-        display: none !important;    
+
+    @media (max-width: 767px) {
+    iframe {
+            height: 350px !important;  
+        }
     }
 </style>
 <h1 id="关于本站">关于本站</h1>
